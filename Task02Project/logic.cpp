@@ -16,7 +16,7 @@ int recursion(int index) {
 
 int fibonacci(int index) {
 	if (index <= 0) {
-		return 0;
+		return index;
 	}
 
 	if (index <= 1) {

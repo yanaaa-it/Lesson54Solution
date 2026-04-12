@@ -9,7 +9,7 @@ int recursion(int n,int m) {
 	if (m ==n) {
 		return n;
 	}
-	return m + recursion(m,n - 1);
+	return m + recursion(n,m - 1);
 }
 int sum(int n, int m) {
 	if (n> m) {

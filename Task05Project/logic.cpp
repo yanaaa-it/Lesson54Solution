@@ -10,11 +10,11 @@ int recursion(int number) {
 	if (number < 10) {
 		return 1;
 	}
-	return recursion(number / 10) + 1;
+	return recursion(number / 10) +1;
 }
 
 int count(int number) {
 	number = abs(number);
 
-	return recursion(number / 10) + number % 10 % 2;
+	return recursion(number / 10) +( number % 10)%2;
 }

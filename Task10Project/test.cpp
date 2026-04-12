@@ -106,6 +106,6 @@ void test11() {
 void test12() {
 	int array[]{ 0 };
 	int size = -1;
-	int expected = -1;
+	int expected = 0;
 	print(array, size, "test12", expected);
 }

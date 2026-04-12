@@ -13,7 +13,7 @@ int recursion(int number) {
 	}
 int sum_of_cubes(int number) {
 	
-	if (number<0) {
+	if (number<=0) {
 		return -1;
 	}
 
